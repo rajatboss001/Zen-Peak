@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zen Peak</title>
+    <link rel="icon" type="ico" href="favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -44,11 +46,12 @@
 <body class="bg-white">
     <section class="bg-dusty-beige">
         <div class="hero-container pt-[99px] max-md:pt-[57px] px-5 max-sm:pt-[57px]">
-            <div class="hero-row">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" data-aos-duration="700" class="hero-row">
                 <div class="">
                     <div class="">
                         <img width="480" height="99" class="mx-auto max-sm:max-w-[240px]"
-                            src="/assets/images/png/p-img-1.png" alt="">
+                            src="/assets/images/svg/logo.svg" alt="logo">
                     </div>
                     <h2
                         class="max-w-[1032px] mx-auto text-center mt-[28.92px] mb-[40px] max-sm:mb-[61px] max-sm:mt-[41.46px] text-white font-bold text-custom-7xl leading-130 max-sm:text-custom-4xl">
@@ -66,33 +69,33 @@
                 </div>
             </div>
         </div>
-        <div class="div max-w-[1440px] mx-auto">
-            <img width="1440" height="559" class="max-sm:object-cover max-sm:h-[320px]"
-                src="/assets/images/png/bg-hero.png" alt="">
+        <div class="w-full">
+            <img height="559" class="max-sm:object-cover w-full max-sm:h-[320px] bg-[linear-gradient(180deg,#DFBCA6_10.47%,#D8A98D_21.8%,#E5C1AA_41.63%,#E5C0A4_48.71%)]"
+                src="/assets/images/png/bg-hero.png" alt="bg-img">
         </div>
     </section>
     <section class="bg-warm-taupe">
         <div class="container-two max-w-[1180px] mx-auto pt-[85px] pb-[62px] px-5 max-sm:pt-[72px] max-sm:pb-10">
             <div class="row-two flex  justify-between gap-6 max-xl:flex-col max-xl:items-center max-sm:gap-0">
                 <div class="left-two max-w-[594px] max-xl:max-w-[90%] max-sm:max-w-full">
-                    <button
-                        class="font-medium text-lg py-[5px] px-5 leading-121 text-white border border-white rounded-[31px] max-sm:text-lg max-sm:py-[4px] max-sm:px-5 max-xl:mx-auto max-xl:block hover:bg-white hover:text-warm-taupe cursor-pointer transition-all duration-300">
-                        Abou us
-                    </button>
-                    <h2
-                        class="font-light text-white leading-131 text-custom-6xl italic mt-[10px] max-xl:text-center max-sm:text-4xl max-sm:leading-131">
+                    <div data-aos="zoom-in-down" data-aos-duration="500"
+                        class="py-[5px] w-full max-w-[101px] flex items-center justify-center text-white border border-white rounded-[31px] max-sm:py-[4px] max-sm:px-5 max-xl:mx-auto max-xl:block">
+                        <p class="font-medium text-lg leading-121 max-sm:text-lg">Abou us</p>
+                    </div>
+                    <h2 data-aos="fade-right" data-aos-duration="700"
+                        class="font-light text-white leading-130 text-custom-6xl italic mt-[10px] max-xl:text-center max-sm:text-4xl max-sm:leading-131">
                         Pioneering Crypto <span
-                            class="capitalize font-bold text-white text-custom-6xl max-sm:text-4xl">and Primary
+                            class="capitalize font-bold not-italic text-white text-custom-6xl max-sm:text-4xl">and Primary
                             Market</span> Ventures
                     </h2>
-                    <p
+                    <p data-aos="fade-right" data-aos-duration="500"
                         class="font-normal capitalize text-base leading-150 text-white max-w-[577px] mt-[15px] max-sm:mt-[30px] max-sm:text-base max-xl:max-w-full max-xl:text-center text-white/70">
                         ZenPeak Capital is a forward-thinking venture firm specializing in innovative investments within
                         the realms of cryptocurrency and primary markets. With a keen eye on emerging trends and
                         disruptive technologies, we are dedicated to identifying and nurturing high-potential
                         opportunities that yield both financial returns and transformative impact.
                     </p>
-                    <p
+                    <p data-aos="fade-right" data-aos-duration="500"
                         class="font-normal capitalize text-base leading-150 text-white max-w-[577px] mt-[10px] max-sm:text-base max-xl:max-w-full max-xl:text-center max-sm:mt-[17px] text-white/70">
                         At ZenPeak Capital, we harness strategic investment to fuel positive change and drive growth.
                         Focusing on established crypto assets and emerging primary market ventures, our experienced team
@@ -171,11 +174,11 @@
             </div>
         </div>
         <div class="container-three max-w-[1181.31px] px-5 mx-auto pt-[162px] relative z-10 max-sm:pt-[74px]">
-            <h2 class="text-custom-6xl font-light italic text-charcoal-gray max-sm:text-4xl">meet
+            <h2 data-aos="fade-right" data-aos-duration="500" class="text-custom-6xl font-light italic text-charcoal-gray max-sm:text-4xl leading-130">meet
                 <span class="text-custom-6xl font-bold not-italic text-charcoal-gray max-sm:text-4xl">with our</span>
                 team
             </h2>
-            <div class="swiper mySwiper mt-[-14px] max-sm:mt-[60px]">
+            <div data-aos="fade-up"data-aos-duration="500" class="swiper mySwiper mt-[-14px] max-sm:mt-[60px]">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide bg-warm-off-white mt-[122.13px] max-sm:mt-0">
 
@@ -340,17 +343,17 @@
     </section>
     <section class="bg-warm-off-white relative px-5">
         <div
-            class="container-for pt-[185px] pb-[218px] max-sm:pt-[104px] max-w-[1440px] mx-auto max-sm:pb-[97px] mt-[-1px] relative">
+            class="container-for pt-[185px] pb-[218px] max-sm:pt-[104px] max-w-[1440px] mx-auto max-sm:pb-[97px] my-[-1px] relative">
             <div class="absolute bottom-[136.04px]">
             <img width="1440" height="870" src="/assets/images/png/shadow3.png" alt="bg-img">
         </div>
-            <h2
+            <h2 data-aos="fade-right" data-aos-duration="500"
                 class="font-bold max-w-[738px] max-sm:text-4xl mb-[44px] relative z-10 mx-auto text-center text-custom-6xl text-charcoal-gray leading-130">
                 Invest <span
                     class="font-normal italic max-sm:text-4xl text-charcoal-gray text-custom-6xl leading-130">cryptocurrency</span>
                 Portfolio</h2>
             <div class="row-for">
-                <div
+                <div data-aos="fade-up" data-aos-duration="500"
                     class="max-w-[636px] rounded-[17px] bg-dusty-peach mx-auto border-[3px] border-taupe py-[21px] px-[25px] space-y-3 relative z-10 max-sm:p-[10.98px_13.07px_10.98px_14.12px] flex flex-col gap-[21px]">
 
                     <!-- Accordion Item 1 -->
@@ -507,7 +510,7 @@
             src="/assets/images/png/shadow1.png" alt="shadow">
         <img width="150" height="378" class="absolute right-0 bottom-[116px] pointer-events-none"
             src="/assets/images/png/shadow2.png" alt="shadow">
-        <div class="container-five max-w-[1180px] mx-auto px-5 max-sm:p-0">
+        <div data-aos="fade-up" data-aos-duration="700" class="container-five max-w-[1180px] mx-auto px-5 max-sm:p-0">
             <div
                 class="row-five bg-warm-taupe  max-sm:pt-[39px] max-sm:pb-[53.83px] p-[45px_5px_45.44px_26px] max-sm:pl-5 max-sm:pr-[19px] max-sm:flex-col-reverse max-sm:gap-[61px] max-xl:flex-col items-center rounded-2xl flex justify-between">
                 <div class="left-five">
@@ -543,28 +546,28 @@
     </section>
     <section class="bg-warm-off-white">
         <div
-            class="container-six pt-[139px] max-w-[1440px] mx-auto pb-[170px] relative max-sm:pt-[97px] max-sm:pb-[96.91px]">
-            <img width="1440" height="361" class="absolute bottom-[158px] pointer-events-none"
+            class="container-six pt-[139px] max-w-[1440px] mx-auto pb-[170px] relative max-sm:pt-[97px] max-sm:pb-[96.91px] mt-[-1px]">
+            <img width="1440" height="361" class="absolute bottom-[158px] pointer-events-none h-[361px] object-cover"
                 src="/assets/images/png/shadow4.png" alt="bg-img">
             <div class="px-5">
-                <h2
+                <h2 data-aos="fade-right" data-aos-duration="500"
                     class="text-charcoal-gray font-light text-custom-6xl italic max-w-[735px] leading-130 max-sm:text-4xl text-center mx-auto">
                     Let’s together <span
                         class="text-charcoal-gray not-italic font-bold text-custom-6xl max-sm:text-4xl">make the crypto
                         world</span> great!
                 </h2>
-                <p
+                <p data-aos="fade-right" data-aos-duration="500"
                     class="font-normal text-base text-dark-charcoal/70 max-w-[675px] leading-150 text-center mx-auto mt-[15px] mb-[93px] max-sm:text-base max-sm:mt-[13px] max-sm:mb-[70px]">
                     Pretium id amet at iaculis sit orci enim. Fames in eget neque vitae iaculis diam. Malesuada
                     adipiscing
                     integer tempor natoque accumsan et.
                 </p>
-                <div
+                <div data-aos="fade-up" data-aos-duration="500"
                     class="row-six max-sm:bg-transparent max-sm:border-none max-sm:p-0 bg-white z-10 relative max-w-[830px] flex flex-wrap py-[38px] pl-8 pr-[31px] gap-x-[25px] gap-y-[35px] mx-auto border-[3px] justify-center border-muted-taupe rounded-[17px] max-sm:gap-[26.6px]">
                     <div
-                        class="flex max-sm:py-[18.25px] max-sm:px-[20.98px] gap-[23px] border border-black py-5 px-[23px] w-full max-w-[365px] rounded-2xl max-sm:bg-white max-sm:gap-[14.98px]">
+                        class="group flex max-sm:py-[18.25px] max-sm:px-[20.98px] gap-[23px] border border-black py-5 px-[23px] w-full max-w-[365px] rounded-2xl max-sm:bg-white max-sm:gap-[14.98px]">
                         <div
-                            class="w-[73px] h-[73px] max-sm:w-[66.6px] max-sm:h-[66.6px] rounded-[14px] bg-warm-taupe p-[9px_5px_8px_12px]">
+                            class="w-[73px] h-[73px] max-sm:w-[66.6px] max-sm:h-[66.6px] rounded-[14px] bg-warm-taupe p-[9px_5px_8px_12px] transition-all duration-300 group-hover:shadow-[0px_4px_31.4px_0px_#DAAF95]">
                             <svg width="56" height="56" viewBox="0 0 56 56" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -584,9 +587,9 @@
                         </div>
                     </div>
                     <div
-                        class="flex max-sm:py-[18.25px] max-sm:px-[20.98px] gap-[23px] border border-black py-5 px-[23px] w-full max-w-[365px] rounded-2xl max-sm:bg-white max-sm:gap-[13.05px]">
+                        class="group flex max-sm:py-[18.25px] max-sm:px-[20.98px] gap-[23px] border border-black py-5 px-[23px] w-full max-w-[365px] rounded-2xl max-sm:bg-white max-sm:gap-[13.05px]">
                         <div
-                            class="w-[73px] h-[73px] max-sm:w-[66.8px] max-sm:h-[66.8px] rounded-[14px] bg-warm-taupe flex justify-center items-center">
+                            class="w-[73px] h-[73px] max-sm:w-[66.8px] max-sm:h-[66.8px] rounded-[14px] bg-warm-taupe flex justify-center items-center transition-all duration-300 group-hover:shadow-[0px_4px_31.4px_0px_#DAAF95]">
                             <svg width="51" height="55" viewBox="0 0 51 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -605,9 +608,9 @@
                         </div>
                     </div>
                     <div
-                        class="flex max-sm:py-[18.25px] max-sm:px-[20.98px] gap-[23px] border border-black py-5 px-[23px] w-full max-w-[365px] rounded-2xl max-sm:bg-white max-sm:gap-[15.9px]">
+                        class="group flex max-sm:py-[18.25px] max-sm:px-[20.98px] gap-[23px] border border-black py-5 px-[23px] w-full max-w-[365px] rounded-2xl max-sm:bg-white max-sm:gap-[15.9px]">
                         <div
-                            class="w-[73px] h-[73px] max-sm:w-[66.6px] max-sm:h-[66.6px] rounded-[14px] flex justify-center items-center bg-warm-taupe p-[9px_5px_8px_12px]">
+                            class="w-[73px] h-[73px] max-sm:w-[66.6px] max-sm:h-[66.6px] rounded-[14px] flex justify-center items-center bg-warm-taupe p-[9px_5px_8px_12px] transition-all duration-300 group-hover:shadow-[0px_4px_31.4px_0px_#DAAF95]">
                             <svg width="52" height="52" viewBox="0 0 52 52" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_87690_3955)">
@@ -640,9 +643,9 @@
                         </div>
                     </div>
                     <div
-                        class="flex max-sm:py-[18.25px] max-sm:px-[20.98px] gap-[23px] border border-black py-5 px-[23px] w-full max-w-[365px] rounded-2xl max-sm:bg-white max-sm:gap-[18.63px]">
+                        class="group flex max-sm:py-[18.25px] max-sm:px-[20.98px] gap-[23px] border border-black py-5 px-[23px] w-full max-w-[365px] rounded-2xl max-sm:bg-white max-sm:gap-[18.63px]">
                         <div
-                            class="w-[73px] h-[73px] max-sm:w-[66.6px] max-sm:h-[66.6px] rounded-[14px] flex justify-center items-center bg-warm-taupe p-[9px_5px_8px_12px]">
+                            class="w-[73px] h-[73px] max-sm:w-[66.6px] max-sm:h-[66.6px] rounded-[14px] flex justify-center items-center bg-warm-taupe p-[9px_5px_8px_12px] transition-all duration-300 group-hover:shadow-[0px_4px_31.4px_0px_#DAAF95]">
                             <svg width="51" height="51" viewBox="0 0 51 51" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -689,7 +692,7 @@
         <img width="146" height="146" src="/assets/images/png/footer-circle.png"
             class="absolute max-sm:hidden pointer-events-none bottom-0 left-0" alt="circle">
         <img width="146" height="146" src="/assets/images/png/footer-circle-2.png"
-            class="absolute max-sm:hidden pointer-events-none top-0 right-0" alt="circle">
+            class="absolute max-sm:hidden pointer-events-none z-10 top-0 right-0" alt="circle">
 
         <div class="footer-container pt-[60px] pb-[50px] max-sm:pb-[72px] max-sm:pt-[67px]">
             <div class="footer-row text-center flex flex-col items-center">
@@ -765,15 +768,19 @@
         <div class="px-5 max-sm:pt-3 max-sm:pb-[11px] border-t border-white/10">
             <div
                 class="py-[18px] flex justify-between max-w-[1140px] w-full text-center mx-auto flex-wrap max-sm:justify-center max-sm:gap-x-7 max-sm:gap-y-[9px]">
-                <p class="font-normal text-base leading-150 max-sm:text-sm">Privacy Policy | Conditions</p>
+                <a class="font-normal text-base leading-150 max-sm:text-sm">Privacy Policy | Conditions</a>
                 <p class="font-normal text-base leading-150 max-sm:text-sm">ZenPeak | Copyright©2024</p>
             </div>
         </div>
     </footer>
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script>
+        AOS.init();
+
+
         const bioButtons = document.querySelectorAll(".show-bio");
 
         bioButtons.forEach((button) => {
@@ -788,47 +795,61 @@
             });
         });
         document.addEventListener("DOMContentLoaded", () => {
-            const accordionHeaders = document.querySelectorAll(".accordion-header");
+    const accordionHeaders = document.querySelectorAll(".accordion-header");
+    const accordionItems = document.querySelectorAll(".accordion-item");
 
-            accordionHeaders.forEach((header) => {
-                header.addEventListener("click", () => {
-                    const currentItem = header.parentElement;
-                    const currentContent = currentItem.querySelector(".accordion-content");
+    // First accordion open by default
+    const firstItem = accordionItems[0];
+    const firstContent = firstItem.querySelector(".accordion-content");
+    const firstHeader = firstItem.querySelector(".accordion-header");
 
-                    const isAlreadyOpen = currentContent.style.maxHeight && currentContent.style.maxHeight !== "0px";
+    firstContent.style.maxHeight = firstContent.scrollHeight + "px";
 
-                    document.querySelectorAll(".accordion-item").forEach((item) => {
-                        const content = item.querySelector(".accordion-content");
-                        const btn = item.querySelector(".accordion-header");
+    firstItem.classList.remove("rounded-[120px]");
+    firstItem.classList.add("rounded-[17px]");
 
-                        content.style.maxHeight = "0px";
+    firstHeader.classList.remove("rounded-[120px]");
+    firstHeader.classList.add("rounded-[17px]");
 
-                        item.classList.remove("rounded-[17px]");
-                        item.classList.add("rounded-[120px]");
 
-                        btn.classList.remove("rounded-[17px]");
-                        btn.classList.add("rounded-[120px]");
-                    });
-                    if (!isAlreadyOpen) {
-                        currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+    accordionHeaders.forEach((header) => {
+        header.addEventListener("click", () => {
 
-                        currentItem.classList.remove("rounded-[120px]");
-                        currentItem.classList.add("rounded-[17px]");
+            const currentItem = header.parentElement;
+            const currentContent = currentItem.querySelector(".accordion-content");
 
-                        header.classList.remove("rounded-[120px]");
-                        header.classList.add("rounded-[17px]");
-                    } else {
-                        currentContent.style.maxHeight = "0px";
+            const isAlreadyOpen =
+                currentContent.style.maxHeight &&
+                currentContent.style.maxHeight !== "0px";
 
-                        currentItem.classList.remove("rounded-[17px]");
-                        currentItem.classList.add("rounded-[120px]");
+            // Close all items
+            accordionItems.forEach((item) => {
+                const content = item.querySelector(".accordion-content");
+                const btn = item.querySelector(".accordion-header");
 
-                        header.classList.remove("rounded-[17px]");
-                        header.classList.add("rounded-[120px]");
-                    }
-                });
+                content.style.maxHeight = "0px";
+
+                item.classList.remove("rounded-[17px]");
+                item.classList.add("rounded-[120px]");
+
+                btn.classList.remove("rounded-[17px]");
+                btn.classList.add("rounded-[120px]");
             });
+
+            // Open clicked item
+            if (!isAlreadyOpen) {
+                currentContent.style.maxHeight =
+                    currentContent.scrollHeight + "px";
+
+                currentItem.classList.remove("rounded-[120px]");
+                currentItem.classList.add("rounded-[17px]");
+
+                header.classList.remove("rounded-[120px]");
+                header.classList.add("rounded-[17px]");
+            }
         });
+    });
+});
 
         var swiper = new Swiper('.mySwiper', {
             slidesPerView: 3,
